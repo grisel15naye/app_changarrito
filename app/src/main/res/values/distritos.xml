@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="los_distritos">
+
+        <item>San Juan de Miraflores</item>
+        <item>San Juan de Lurigancho</item>
+        <item>Villa Maria Del Triunfo</item>
+        <item>Villa el Salvador</item>
+        <item>Chorrillos</item>
+        <item>Miraflores</item>
+        <item>Comas</item>
+
+    </string-array>
+</resources>

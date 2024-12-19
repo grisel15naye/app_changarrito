@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo01"
+    android:orientation="vertical"
+    tools:context=".MainConsultar">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="25dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:background="#99072AF8"
+                android:text="INFORMACION DE CLIENTE"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="34sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/Documento"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="#CBE6FB03"
+                    android:ems="10"
+                    android:hint="Documento"
+                    android:inputType="number"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textSize="22sp" />
+
+                <Button
+                    android:id="@+id/btnConsultar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:backgroundTint="#C3FF0F00"
+                    android:text="Consultar"
+                    android:textSize="24sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="15dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/Nombres"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="#CBE6FB03"
+                    android:ems="10"
+                    android:hint="Nombres"
+                    android:inputType="text"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textSize="22sp" />
+
+                <EditText
+                    android:id="@+id/Password"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="#CBE6FB03"
+                    android:ems="10"
+                    android:hint="Contraseña"
+                    android:inputType="text"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textSize="22sp" />
+
+                <EditText
+                    android:id="@+id/Correo"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="#CBE6FB03"
+                    android:ems="10"
+                    android:hint="Correo"
+                    android:inputType="text"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textSize="22sp" />
+
+                <EditText
+                    android:id="@+id/Telefono"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="#CBE6FB03"
+                    android:ems="10"
+                    android:hint="Telefono"
+                    android:inputType="number"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textSize="22sp" />
+
+                <EditText
+                    android:id="@+id/Sexo"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="#CBE6FB03"
+                    android:ems="10"
+                    android:hint="Sexo"
+                    android:inputType="text"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textSize="22sp" />
+
+                <EditText
+                    android:id="@+id/Distrito"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="#CBE6FB03"
+                    android:ems="10"
+                    android:hint="Distrito"
+                    android:inputType="text"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textSize="22sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnModificar"
+                    android:layout_width="163dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#A10029FF"
+                    android:hapticFeedbackEnabled="false"
+                    android:text="Modificar"
+                    android:textColor="@color/white"
+                    android:textSize="22sp" />
+
+                <Button
+                    android:id="@+id/btnEliminar"
+                    android:layout_width="165dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:backgroundTint="#A10029FF"
+                    android:text="Eliminar"
+                    android:textColor="@color/white"
+                    android:textSize="22sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btnAtras02"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="#BEFF1403"
+                    android:text="Atras"
+                    android:textSize="24sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
